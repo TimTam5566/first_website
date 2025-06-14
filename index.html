@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <header>
-        <div class=""mobile-header">
-            <img src="img/logo.png" alt="She Codes Plus logo">
+    <header class="logo flex space-between">
+        <div>
+            <img src="img/logo.png" alt="She Codes Plus logo" class="logo">
             <button type="button" class="hamburger-button">
-                <img class="hamburger-icon" src="img/hamburger.svg" 
+                <img src="img/hamburger.svg" 
                 alt="Three horizontal lines, positioned one above the other."/>
             </button>
         </div>
@@ -62,23 +62,23 @@
     </header>
 
     <main>
-        <section>
+        <section class="hero flex column">
             <h1>A <span>movement</span> devoted to helping women use tech skills.</h1>
             <a href="#">Start Learning</a>
         </section>
        
     
-        <section class="articles-container">
+        <section class="flex">
             <article>
                 <a 
                 href="#">
-                    </a><img class="icon" src="img/tools.svg" 
+                    </a><img src="img/tools.svg" 
                     alt="screwdriver and crescent symbols crossed over one another diagonnally">
                 </a>
+                <p>
                 <h2>
                     One Day Workshop
                 </h2>
-                <p>
                     Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.
                 </p>
                 <a 
@@ -90,7 +90,7 @@
           <article>
                 <a 
                     href="#">
-                    <img class="icon" src="img/lightning.svg" 
+                    <img src="img/lightning.svg" 
                     alt="black lightening bolt symbol vertically oriented, wide at the top reducing to a point at the bottom">
                 </a>
                 <h2>
@@ -108,7 +108,7 @@
           <article>
                 <a 
                     href="#">
-                    <img class="icon" src="img/plus.svg" 
+                    <img src="img/plus.svg" 
                     alt="black plus formed by thin vertical line crossed by a horizontal thin line">
                 </a>
                 <h2>
@@ -158,13 +158,15 @@
          <nav>
             <ul>
                 <li>
-                    <a href="#"><img src="img/instagram.svg" alt="instagram"></a>
+                    
+                    <a href="#">
+                        <img src="img/instagram.svg" alt="instagram" class="icon"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="img/slack.svg" alt="slack"></a>
+                    <a href="#"><img src="img/slack.svg" alt="slack" class="icon"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="img/github.svg" alt="github"></a>
+                    <a href="#"><img src="img/github.svg" alt="github" class="icon"></a>
                 </li>   
             </ul>
             <div>

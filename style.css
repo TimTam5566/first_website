@@ -1,0 +1,60 @@
+/* utility classes */
+.flex{
+    display:flex;
+}
+
+.space-between{
+    justify-content:space-between;
+}
+
+.column{
+    flex-direction:column;
+}
+
+.logo{
+    max-height:100px;
+    width:auto;
+}
+
+.hero{
+    background-color:rebeccapurple;
+    color:white;
+    padding: 5%;
+}
+
+.padding-small{
+    padding: 8px;
+
+}
+
+.padding-medium{
+    padding: 16px;
+
+}
+
+.padding-large{
+    padding: 32px;
+}
+
+.padding-xlarge{
+    padding: 64px;
+}
+
+article .icon{ 
+    width:24px;
+    background-color:#cdb5df;
+}
+
+.icon {
+    width:32px;
+}
+
+.button { 
+    padding:;
+    border: ;
+    background-color:;
+}
+
+.rounded{ 
+    
+}
